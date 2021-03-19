@@ -1,0 +1,111 @@
+/*===MOBILE VIEW 375px===*/
+
+@media screen and (min-width:375px){
+
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-size: 18px;
+	font-family: 'Kumbh Sans', sans-serif;
+	background: url("../images/bg-pattern-card.svg");
+	background-size: 1100%;
+}
+
+
+.row {
+	margin:0;
+}
+
+#outerdiv {
+	width:300px;
+	height:400px;
+	background-color: #fff;
+	text-align:center;
+	margin:150px auto;
+	border-radius: 20px;
+	box-shadow: 1px 1px 20px hsl(227, 10%, 46%);
+	position: relative;	
+	padding:0;
+}
+
+/*HEADER*/
+#innerheader {
+	background: url("../images/bg-pattern-card.svg");
+	height:150px;
+	border-radius: 20px 20px 0px 0px;
+}
+
+/*PICTURE*/
+#headerpic {
+	height:105px;
+	width:105px;
+	border-radius: 100%;
+	background:#fff;
+	position: absolute;
+	top:100px;
+	left:98.5px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#inner-headerpic {
+	background:url("../images/image-victor.jpg") no-repeat;
+	height:96px;
+	width:96px;
+	border-radius: 100%;
+}
+
+/*PERSONAL DETAILS*/
+#innerpersonaldetail {
+	height:150px;
+	border-bottom:1px #C1C1C1 solid;
+	padding-top: 75px; 
+	font-weight: 700;
+}
+
+#innerpersonaldetail span {
+	font-weight: 400;
+	color:#7E7E7E;
+	margin-left: 3px;
+}
+
+#innerpersonaldetail p {
+	font-weight: 400;
+	font-size:0.8em;
+	color: #7E7E7E;
+	margin-top:5px;
+}
+
+/*STATS*/
+#innerstats {
+	height: 100px;
+	font-weight: 800;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#followerblock, #likesblock, #photosblock {
+	width: 30%;
+}
+
+#followerblock p, #likesblock p, #photosblock p {
+	font-weight: 400;
+	font-size: 0.6em;
+	color:#7E7E7E;
+	padding-top: 1%;
+}
+
+}
+
+/*===DESKTOP VIEW 1440px===*/
+
+@media screen and (min-width:1440px){
+
+}
